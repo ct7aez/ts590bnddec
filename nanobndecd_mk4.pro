@@ -1,19 +1,6 @@
-update=Ter 16 Jun 2015 16:08:35 WEST
+update=Tue 14 Jul 2015 15:44:49 WEST
 version=1
 last_client=kicad
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=art/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -49,11 +36,13 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[cvpcb]
+version=1
+NetIExt=net
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=nanobndecd_mk4.net
-UseCmpFile=1
 PadDrill=3.2
 PadDrillOvalY=3.2
 PadSizeH=3.6
@@ -69,8 +58,15 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[cvpcb]
+[schematic_editor]
 version=1
-NetIExt=net
+PageLayoutDescrFile=
+PlotDirectoryName=art/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
