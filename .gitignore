@@ -1,0 +1,14 @@
+*.bak
+*.bck
+*.raw
+*.log
+*.dcm
+*.kicad_pcb-bak
+*autosave*
+*cache*
+*.pdf
+*.jpg
+*.csv
+*.txt
+*.xls
+
