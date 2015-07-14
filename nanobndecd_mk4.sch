@@ -1,34 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:nanobndecd_mk4-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:nanobndecd_mk4-cache
 EELAYER 25 0
 EELAYER END
@@ -36,8 +7,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Arduino NANO TS-590S(G) band decoder"
-Date "Sex 12 Jun 2015"
-Rev "2.3"
+Date "2015-07-14"
+Rev "1"
 Comp "by João Cunha lopes, CT2HME and Pedro Correia, CT7AEZ "
 Comment1 "Based on the ground breaking work from Ondrej Kolonicny, OK1CDJ"
 Comment2 "TS-590S(G) Arduino based Band Decoder"
@@ -1026,7 +997,7 @@ Wire Wire Line
 Connection ~ 5650 1550
 $Bitmap
 Pos 1100 10550
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 5D 00 00 01 85 08 02 00 00 00 D1 87 B7 
 A2 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC 7D 79 5C 53 57 
@@ -3066,7 +3037,7 @@ Wire Wire Line
 Connection ~ 1700 1200
 $Bitmap
 Pos 3150 10600
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 48 00 00 00 AE 08 02 00 00 00 42 FE 65 
 4E 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC 9D 75 5C 53 DF 
@@ -4527,7 +4498,7 @@ EA C0 69 5A A7 0C C1 4B 84 65 59 31 2B 1C D4 91 CA 29 96 48 19 75 27 2B EA 82 0C
 68 B3 D9 08 96 65 49 92 D4 EB F5 00 60 B1 58 1C 1F 36 1C FB 59 05 DF D2 2A 22 22 22 22 22 F2 77 
 60 18 E6 D8 09 E9 30 64 26 93 49 AF D7 93 24 89 30 0C 93 4A A5 72 B9 5C 2E 97 CB 64 32 82 20 10 
 42 5C 29 42 CB 16 11 11 11 11 11 79 3C 65 67 D7 38 8E A3 69 DA 66 B3 91 24 49 92 E4 FF 01 AC 85 
-47 67 F9 85 74 E5 00 00 00 00 49 45 4E 44 AE 42 60 82 0C 
+47 67 F9 85 74 E5 00 00 00 00 49 45 4E 44 AE 42 60 82 AD 
 EndData
 $EndBitmap
 Wire Wire Line
