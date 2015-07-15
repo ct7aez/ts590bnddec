@@ -15,12 +15,13 @@
   (page A4)
   (title_block
     (title "Arduino NANO TS-590S(G) band decoder")
-    (date 2015-07-14)
+    (date 2015-07-15)
     (rev 1)
     (company "by João Cunha lopes, CT2HME and Pedro Correia, CT7AEZ ")
     (comment 1 "Based on the ground breaking work from Ondrej Kolonicny, OK1CDJ")
-    (comment 2 "TS-590S(G) Arduino based Band Decoder")
-    (comment 3 "Band decoder board")
+    (comment 2 "Attribution-NonCommercial-ShareAlike 4.0 International License.")
+    (comment 3 "and Pedro Correia, CT7AEZ is licensed under a Creative Commons ")
+    (comment 4 "Arduino NANO TS-590S(G) band decoder by João Cunha lopes, CT2HME ")
   )
 
   (layers
