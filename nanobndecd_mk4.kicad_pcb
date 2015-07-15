@@ -19,7 +19,7 @@
     (rev 1)
     (company "by João Cunha lopes, CT2HME and Pedro Correia, CT7AEZ ")
     (comment 1 "Based on the ground breaking work from Ondrej Kolonicny, OK1CDJ")
-    (comment 2 "Attribution-NonCommercial-ShareAlike 4.0 International License.")
+    (comment 2 "Attribution 4.0 International License. https://github.com/ct7aez/ts590bnddec.git")
     (comment 3 "and Pedro Correia, CT7AEZ is licensed under a Creative Commons ")
     (comment 4 "Arduino NANO TS-590S(G) band decoder by João Cunha lopes, CT2HME ")
   )
