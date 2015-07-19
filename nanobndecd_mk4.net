@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/pedro/kicad/ts590bnddec/nanobndecd_mk4.sch)
-    (date "Sáb 18 Jul 2015 23:22:56 WEST")
+    (date "Dom 19 Jul 2015 11:55:46 WEST")
     (tool "Eeschema no-vcs-found-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -275,7 +275,7 @@
       (tstamp 551D59A8))
     (comp (ref P4)
       (value CONN_01X04)
-      (footprint Socket_Strips:Socket_Strip_Straight_1x04)
+      (footprint Pin_Headers:Pin_Header_Straight_1x04)
       (libsource (lib conn) (part CONN_01X04))
       (sheetpath (names /) (tstamps /))
       (tstamp 551EA2B4))
@@ -633,10 +633,10 @@
         (pin (num 2) (name GND) (type power_in))
         (pin (num 3) (name OUT) (type power_out)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical nanobndecd_mk4-rescue)
       (uri /home/pedro/kicad/ts590bnddec/nanobndecd_mk4-rescue.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
